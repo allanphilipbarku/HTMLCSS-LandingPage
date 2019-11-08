@@ -152,17 +152,16 @@ section {
   padding: 15px;
   font-size: 14px;
   color: #364147;
-  font-size: 18px;
 }
-.account a {
-  font-size: 14px;
+.account > a {
+  font-size: 18px;
 }
 
 .profile-pic {
   width: 60px;
   height: 60px;
 }
-.profile-pic img {
+.profile-pic > img {
   border-radius: 100px;
   max-width: 100%;
 }

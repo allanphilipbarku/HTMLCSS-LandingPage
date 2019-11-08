@@ -132,7 +132,7 @@ section {
 }
 
 .nav-list {
-  padding-left: 0;
+  padding: 0;
   width: 575px;
   margin-top: 10px;
 }
@@ -144,17 +144,14 @@ section {
 }
 
 .profile {
-  margin-left: auto;
+  margin: auto;
 }
-
 .account {
-  text-align: right;
   padding: 15px;
   font-size: 14px;
   color: #364147;
-  font-size: 18px;
 }
-.account a {
+.account > a {
   font-size: 14px;
 }
 
@@ -162,7 +159,7 @@ section {
   width: 60px;
   height: 60px;
 }
-.profile-pic img {
+.profile-pic > img {
   border-radius: 100px;
   max-width: 100%;
 }
