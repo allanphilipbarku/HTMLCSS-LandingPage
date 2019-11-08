@@ -191,7 +191,7 @@ section {
   letter-spacing: 2px;
   font-weight: 700;
   font-size: 21px;
-  margin: 0 0 10px;
+  margin: 0 10px 0;
 }
 
 .banner {
@@ -229,14 +229,4 @@ section {
   padding: 30px 0;
   text-transform: uppercase;
   text-align: center;
-}
-.category-text > div {
-  font-size: 16px;
-  font-weight: 200;
-  color: #faa541;
-}
-.category-text h3 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1;
 }
