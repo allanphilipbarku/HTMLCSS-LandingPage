@@ -192,7 +192,7 @@ section {
 }
 
 .hero {
-    background-image: url('../img/hero.jpg');
+    background-image: url("../img/hero.jpg");
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -242,7 +242,7 @@ section {
     text-align: center;
 }
 
-.banner-text > div:last-child {
+.banner-text>div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -264,7 +264,7 @@ section {
     text-align: center;
 }
 
-.category-text > div {
+.category-text>div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
@@ -290,57 +290,4 @@ section {
     bottom: 30px;
     left: 50px;
     right: 50px;
-    z-index: 1;
-}
-
-.full-banner-image {
-    flex: 0 0 58.333333%;
-    background-image: url('../img/vista.jpg');
-    background-size: cover;
-    background-position: top center;
-    min-height: 400px;
-}
-
-.full-banner-sidebar {
-    flex: 0 0 41.666667%;
-    background-color: #364147;
-    text-transform: uppercase;
-    padding: 30px;
-    color: #ffffff;
-}
-
-.full-banner-sidebar h4 {
-    font-size: 40px;
-    font-weight: 700;
-    font-style: italic;
-    color: #637f94;
-    line-height: 1;
-}
-
-.full-banner-sidebar h4:after {
-    content: "";
-    width: 100px;
-    height: 1px;
-    background-color: #faa541;
-    margin: 20px auto;
-    display: block;
-}
-
-.full-banner-sidebar > div:nth-of-type(1) {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.full-banner-sidebar > div:nth-of-type(2) {
-    font-size: 25px;
-    font-weight: 200;
-    letter-spacing: 3px;
-}
-
-.full-banner-sidebar .btn.btn-default {
-    margin-top: 50px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    z-index: 1;
 }
