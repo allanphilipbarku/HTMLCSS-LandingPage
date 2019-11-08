@@ -199,6 +199,13 @@ section {
     text-transform: uppercase;
 }
 
+.hero h1,
+.hero h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
 .hero h1 {
     position: relative;
     left: -30px;
@@ -206,12 +213,6 @@ section {
 
 .hero h2 {
     color: #faa541;
-}
-
-.hero h1, .hero h2 {
-    font-size: 63px;
-    font-weight: 700;
-    line-height: 0.9;
 }
 
 .hero p {
@@ -241,7 +242,7 @@ section {
     text-align: center;
 }
 
-.banner-text > div:last-child {
+.banner-text>div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -263,7 +264,7 @@ section {
     text-align: center;
 }
 
-.category-text > div {
+.category-text>div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
